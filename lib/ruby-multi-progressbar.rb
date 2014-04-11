@@ -1,5 +1,5 @@
 require 'ncurses'
-require 'progressbar'
+require 'ruby-progressbar'
 require 'delegate'
 
 module MultiProgressBar
@@ -87,6 +87,7 @@ module MultiProgressBar
   end
 end
 
-require 'multi_progress_bar/bar_renderer'
-require 'multi_progress_bar/bar'
-require 'multi_progress_bar/total_bar'
+require 'ruby-multi-progressbar/version'
+require 'ruby-multi-progressbar/bar_renderer'
+require 'ruby-multi-progressbar/bar'
+require 'ruby-multi-progressbar/total_bar'
